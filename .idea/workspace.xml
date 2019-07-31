@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e057f946-627d-43de-88a8-a8579faeec21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/node/energy.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/node/energy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routing/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/routing protocols/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/topologies/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/network/topologies/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="e057f946-627d-43de-88a8-a8579faeec21" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,16 +10,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/node/energy.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="470">
-              <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/node/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -162,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564458140457</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Constructing the framework">
+      <created>1564560812475</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564560812476</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -202,7 +204,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="working" />
     <MESSAGE value="added TODO in all files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added TODO in all files" />
+    <MESSAGE value="Constructing the framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Constructing the framework" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/network/README.md">
@@ -278,7 +281,7 @@
     <entry file="file://$PROJECT_DIR$/src/node/energy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
-          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
