@@ -1,3 +1,5 @@
+import random
+
 """WSN nodes consist of several functional modules: Micro- processor, Transceiver,
 Sensor, and power supply modules as shown on readme.By studying the energy consumption
 issues of node components in different component states and during state transitions,
@@ -18,11 +20,30 @@ class Parameters(object):
     A function of bitrate??
 
     """
-    def __init__(self, op_state=(400, 50, 0.16), trans_state=(10, 10, 90, 90, 160), Tcpu):
-        self.op_state = op_state
-        self.trans_state = trans_state
-        self.Tcpu = Tcpu
-        pass
+    def __init__(self, node_id):
+        self.node_id = node_id
+
+    def op_state(self, op_=(400, 50, 0.16)):
+        op = op_
+        return op, self.node_id
+
+    def trans_state(self, tr_=(90, 90, 90, 10, 10)):
+        tr = tr_
+        return tr, self.node_id
+
+    def tcpu(self, tcpu_=(90, 90, 90, 10, 10)):
+
+        return tcpu_, self.node_id
+
+    def p_init(self, p_init_=(90, 90, 90, 10, 10)):
+
+        return p_init_, self.node_id
+
+    def node_parameters(self):
+        return self.op_state(), self.trans_state(), self.tcpu(), self.p_init()
+
+
+
 
 
 class PowerSupply(Parameters):                                          # Power Supply module
@@ -53,11 +74,9 @@ class Processor(Parameters):                                            # Proces
 
         for i in range(0, len(self.op_state)):
             E_cpu = self.op_state[i]*self.Tcpu                  #TODO: check the Tcpu issue
+            E_cpu_change = self.trans_state[i]*Pinit
 
         pass
-
-
-
 
 class Energy(PowerSupply, Tranceiver, Sensor, Processor):           # Default total energy
     def __init__(self):
